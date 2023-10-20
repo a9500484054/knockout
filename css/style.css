@@ -1,0 +1,83 @@
+.element-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #D3D8DF;
+    border-radius: 50px;
+    transition-duration: .5s;
+}
+.active {
+  transform: rotate(180deg);
+}
+.icon-arrow {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    /* background: #000; */
+    position: relative;
+}
+
+.icon-arrow::after {
+    content: "";
+
+    position: absolute;
+    top: 7px;
+    left: 6px;
+    display: block;
+    width: 20px;
+    height: 20px;
+
+    background-image: url('/img/arrow.png');
+    background-repeat: no-repeat;
+}
+.icon-button {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    /* background: #000; */
+    position: relative;
+}
+
+.icon-button::after {
+    content: "";
+
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    display: block;
+    width: 20px;
+    height: 20px;
+
+    background-image: url('/img/button.png');
+    background-repeat: no-repeat;
+}
+
+  
+  .my-dropdown-toggle {
+    cursor: pointer;
+  }
+
+  .list-item {
+    width: 800px;
+    background-color: #fff;
+  }
+  .category-item {
+    width: 784px;
+    background-color: #d3d3d3;
+  }
+  
+  .dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #f9f9f9;
+  }
+
+  .open {
+    max-height: 1000px; /* Замените на ваше значение */
+  }
+  
+
+
