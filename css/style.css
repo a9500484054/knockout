@@ -29,7 +29,7 @@
     width: 20px;
     height: 20px;
 
-    background-image: url('/img/arrow.png');
+    background-image: url('../img/arrow.png');
     background-repeat: no-repeat;
 }
 .icon-button {
@@ -50,7 +50,7 @@
     width: 20px;
     height: 20px;
 
-    background-image: url('/img/button.png');
+    background-image: url('../img/button.png');
     background-repeat: no-repeat;
 }
 
